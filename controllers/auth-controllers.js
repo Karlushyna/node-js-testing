@@ -86,7 +86,7 @@ const updateAvatar = async(req, res)=>{
     res.json({avatarURL});
 }
 
-//check tests
+//add final 
 
 module.exports = {
     register: ctrlWrapper(register),
